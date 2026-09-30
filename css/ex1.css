@@ -1,0 +1,74 @@
+body{
+	text-align: center; /*文字置中*/
+	background: #fefae0; /*背景顏色*/
+	color: #bc6c25; /*文字顏色*/
+	padding: 0px;/*內邊框*/
+	margin: 0px;/*外邊框*/
+
+}
+/* nav */
+nav{
+	background: #d2823b; /*導覽列背景顏色*/
+	
+}
+nav a{
+	background: #faca87; /*連結背景顏色*/
+	color: #5c310c; /*文字顏色*/
+	padding: 10px; /*內邊距(點擊範圍)*/
+	display:inline-block; /*讓內容可調寬高同時水平排列*/
+	text-decoration: none; 
+	/*決定是否要底線下劃線(underline)或刪除線或波浪(wave)，none為關閉*/
+	border-radius:10%;
+}
+nav a:visited{/*連結訪問後背景顏色*/
+	background: #febd63; 
+	color: #bc6c25;
+}
+nav a:hover{/*滑鼠移至連結時背景顏色*/
+	background: #fefae0; 
+	color: #bc6c25;
+}
+nav a:active{/*滑鼠點擊連結時背景顏色*/
+	background: #ffdd00; 
+	color: #7d3a00;
+}
+
+/* section */
+section{
+	width: 80%; /*視窗的80%*/
+	margin: auto; /*物件置中*/
+}
+
+/* article */
+article{
+	display:inline-block; /*讓內容可調寬高同時水平排列*/
+	border:solid 1px rgba(111, 85, 13, 0.2); /*框線，粗細，顏色*/
+	width: 200px; /*寬度*/
+	border-radius:20%;
+}
+article img{
+	width: 80%; /*圖片寬度*/
+	border-radius:30%; /*圓角，正方形時50%可以變正圓*/
+}
+article a{
+	display:inline-block; /*讓內容可調寬高同時水平排列*/
+	color:#bc6c25;
+	background: #ffffff;
+	text-decoration: none;
+	padding-bottom: 20px;
+	border-radius:20%;
+}
+article a:hover{/*滑鼠移至連結時背景顏色*/
+	background: #fefae0; 
+	color: #bc6c25;
+	border-radius:20%;
+}
+article a:active{/*滑鼠點擊連結時背景顏色*/
+	background: #ffd17b; 
+	color: #7d3a00;
+	border-radius:20%;
+}
+
+footer {
+	margin :30px;
+}
