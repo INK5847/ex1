@@ -35,7 +35,7 @@ nav a:active{/*滑鼠點擊連結時背景顏色*/
 
 /* section */
 section{
-	width: 80%; /*視窗的80%*/
+	width: 90%; /*視窗的85%*/
 	margin: auto; /*物件置中*/
 }
 
